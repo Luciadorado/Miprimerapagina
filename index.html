@@ -3,13 +3,14 @@
   <head>
     <meta charset="UFT-8" />
     <title>Lucia Dorado</title>
-    <link rel="stylesheet" href="./styles.css"/>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <h1>Esta es mi primera página</h1>
     <h3>Bienvenidos</h3>
-    <section id="image">
-    <img class="image" src="./mileycyrus.jpg" /> </section>
+    <div id="image">
+      <img class="image" src="./mileycyrus.jpg" />
+    </div>
 
     <h4>Mis datos:</h4>
     <ul>
@@ -26,34 +27,59 @@
     </ol>
 
     <h4>Sobre mi:</h4>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-      et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-      aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa 
-      qui officia deserunt mollit anim id est laborum.</p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
+    </p>
 
     <form>
       <h4>Completar con tus datos:</h4>
-      <label>¿Cual es tu nombre?</label>
-      <input type="text" />
-      <label>Apellido</label>
-      <input type="text" />
-      <label>Fecha de nacimiento</label>
-      <input type="date" />
-      <label>Contraseña</label>
-      <input type="password" />
-      <label>Sexo</label>
-      <input type="radio" name="sexo" />
-      <label>hombre</label>
-      <input type="radio" name="sexo" />
-      <label>mujer</label>
-      <label>¿Jugamos?</label>
-      <select name="ejemplo">
-        <option>Piedra</option>
-        <option>Papel</option>
-        <option>Tijera</option>
-      </select>
-      <input type="submit" value="Aceptar" />
+
+      <section class="name">
+        <label>Nombre:</label>
+        <input type="text" />
+      </section>
+
+      <section class="surname">
+        <label>Apellido:</label>
+        <input type="text" />
+      </section>
+
+      <section class="date">
+        <label>Fecha de nacimiento:</label>
+        <input type="date" />
+      </section>
+
+      <section class="password">
+        <label>Contraseña:</label>
+        <input type="password" />
+      </section>
+
+      <section class="sexo">
+        <label>Sexo:</label>
+        <input type="radio" name="sexo" />
+        <label>hombre</label>
+        <input type="radio" name="sexo" />
+        <label>mujer</label>
+      </section>
+
+      <section class="select">
+        <label>¿Jugamos?</label>
+        <select name="ejemplo">
+          <option>Piedra</option>
+          <option>Papel</option>
+          <option>Tijera</option>
+        </select>
+      </section>
+
+      <section class="submit">
+        <input type="submit" value="Aceptar" />
+      </section>
     </form>
     <footer>
       <h4>Mis Redes:</h4>

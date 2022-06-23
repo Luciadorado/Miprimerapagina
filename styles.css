@@ -1,45 +1,64 @@
-*{
-    margin:10px;
-    padding: 10px;
-    background-color: aquamarine;
+* {
+  margin: 8px;
+  padding: 8px;
+  background-color: rgb(149, 235, 238);
 }
 
-h1{
+h1 {
+  color: #e05a87;
+  font-size: 40px;
+  text-align: center;
+}
+h3 {
+  color: black;
+  font-size: 27px;
+  text-align: center;
+}
+
+div {
+  text-align: center;
+}
+.image {
+  text-align: center;
+  width: 400px;
+  height: 300px;
+  border-radius: 100%;
+}
+
+h4 {
+  color: blue;
+  font-size: 22px;
+}
+
+p {
+  font-size: 18px;
+}
+ol {
+  font-size: 18px;
+}
+ul {
+  font-size: 18px;
+}
+
+form {
+  font-size: 18px;
+}
+a {
+  font-size: 18px;
+}
+
+select{
+    background-color: aliceblue;
     color: #e05a87;
-    font-size: 40px;
-    text-align: center;
-}
-h3{
-    color: black;
-    font-size: 27px;
-    text-align: center;
-}
-.image{
-    text-align: center;
-    width: 400px;
-    height: 300px;
-    border-radius: 50%;
-    margin-left: 410px;
- }
-
-h4{
-    color: blue;
-    font-size: 22px;
+    border-color: #e05a87;
 }
 
-p{
-    font-size: 18px;
-}
-ol{
-    font-size: 18px;
-}
-ul{
-    font-size: 18px;
+input{
+    border-color: #e05a87;
+    background-color: aliceblue;
+    margin-left: 5px
 }
 
-form{
-    font-size: 18px;
-}
 a{
-    font-size: 18px;
+    color: #e05a87;
 }
